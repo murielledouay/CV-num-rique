@@ -1,0 +1,89 @@
+header {
+  text-align:center;
+  padding-left: 240px;
+  padding-top: 5px;
+  font-size: 15px;
+  font-style: bold;
+  color: #ff534e;
+}
+  header {
+  background-image: url('../img/mumu7.jpg');
+  background-size: 90%;
+  background-repeat: no-repeat;
+  height:600px;
+}
+h2{
+  color: #ff534e;
+}
+h3{
+  font-style: italic;
+}
+#presentation {
+  background-color: #f5f4a0;
+  text-align: justify;
+  padding: 20px;
+  font-style: italic;
+  color: #171a11;
+}
+#formations {
+  background-color: #ffffff;
+  text-align: justify;
+  padding: 20px;
+}
+#profExperiences {
+  background-color: #f5f4a0;
+  text-align: justify;
+  padding: 20px;
+}
+#newProject {
+  background-color: #ffffff;
+  text-align: justify;
+  margin: center;
+  padding: 20px;
+}
+#newSkills {
+  background-color: #f5f4a0;
+  text-align: justify;
+  margin: center;
+  padding: 20px;
+}
+#contact {
+  background-color: #ffffff;
+  text-align: justify;
+  padding: 20px;
+}
+nav {
+  background-color: #7ca645;
+  color: #171a11;
+  height : 50px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    color: #171a11;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #6aa379;
+}
+#iconBurger{
+  display: block;
+}
+@media screen and (max-width : 992px){
+  #block{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width : 680px){
+  li a, li form{
+  display: none;
+}
