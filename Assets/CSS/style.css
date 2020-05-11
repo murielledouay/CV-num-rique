@@ -1,22 +1,18 @@
 header {
   text-align:center;
-  padding-left: 240px;
   padding-top: 5px;
-  font-size: 15px;
+  font-size: 35px;
   font-style: bold;
-  color: #ff534e;
+  color: #ffffff;
 }
-  header {
-  background-image: url('../img/mumu7.jpg');
-  background-size: 90%;
+header {
+  background-image: url('../img/mumu.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   height:600px;
 }
-h2{
-  color: #ff534e;
-}
-h3{
-  font-style: italic;
+.text {
+  font-weight: bold;
 }
 #presentation {
   background-color: #f5f4a0;
@@ -48,9 +44,14 @@ h3{
   padding: 20px;
 }
 #contact {
-  background-color: #ffffff;
+  background-color: #7ca645;
   text-align: justify;
   padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: 30px;
 }
 nav {
   background-color: #7ca645;
@@ -58,22 +59,22 @@ nav {
   height : 50px;
 }
 ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    height: 50px;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  margin: 0;
+  padding: 0;
 }
 li a {
-    display: block;
-    color: #171a11;
-    padding: 8px 0 8px 16px;
-    text-decoration: none;
+  display: block;
+  color: #171a11;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
 }
 li a:hover {
-    color: #6aa379;
+  color: #6aa379;
 }
 #iconBurger{
   display: block;
@@ -85,5 +86,5 @@ li a:hover {
 }
 @media screen and (max-width : 680px){
   li a, li form{
-  display: none;
-}
+    display: none;
+  }
